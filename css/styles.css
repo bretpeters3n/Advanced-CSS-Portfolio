@@ -13,6 +13,7 @@ control I expect when it comes to setting sizes and using margins/padding */
 }
 
 body {
+  font-family: sans-serif;
 }
 
 nav {
@@ -25,9 +26,103 @@ header {
 }
 
 main {
+  margin: auto;
+  max-width: 1170px;
 }
 
 section {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
+
+.section-title {
+  font-size: 60px;
+  text-align: right;
+  color: var(--copy-color);
+  border-right: 4px solid var(--copy-color);
+  padding-right: 16px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 30%;
+  border: 1px solid black;
+}
+
+.section-content {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 70%;
+  border: 1px solid black;
+  /* this works, but it seems to be a problem like what 'box-sizing:
+  border-box;' solves. This works but I had to change other values to get it to
+  work. */
+  gap: 16px;
+}
+
+.section-content footer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.section-content footer figure {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: center;
+}
+
+article {
+  border: 1px solid black;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 40%;
+  height: 150px;
+}
+
+article:first-child {
+  border: 1px solid black;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  height: 395px;
+  background-image: url("../img/laptop-on-table.jpg");
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+article:nth-child(2) {
+  background-image: url("../img/clouds-moon.jpg");
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+article:nth-child(3) {
+  background-image: url("../img/code-screen-1.jpg");
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+article:nth-child(4) {
+  background-image: url("../img/circut.jpg");
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+article:nth-child(5) {
+  background-image: url("../img/yosimite.jpg");
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 footer {
