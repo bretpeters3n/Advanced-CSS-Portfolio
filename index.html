@@ -10,42 +10,87 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Responsive Web Design</h1>
-      <p>Watch what happens to the navbar links when the screen hits 780px!</p>
-    </header>
 
     <nav>
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-      <a href="#">Link 4</a>
+      <h1>Bret Petersen</h1>
+      <ul>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact Me</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
     </nav>
 
+    <header>
+      <h1>Be flexible, I am.</h1>
+    </header>
+
     <main>
-      <aside>
-        <h2>This is a sidebar.</h2>
-        <div class="sample-img">Image</div>
-        <p>
-          It will stack BELOW the body once the screen hits 768px or smaller.
-        </p>
-      </aside>
 
       <section>
-        <h2>This is the body.</h2>
-        <div class="sample-img">Image</div>
-        <p>
-          It will stack on top of the sidebar once the screen hits 768px or
-          smaller.
-        </p>
+        <div class="section-title"></div>
+        <div class="section-content"></div>
       </section>
+
+      <section>
+        <div class="section-title"></div>
+        <div class="section-content">
+          <article></article>
+          <article></article>
+          <article></article>
+          <article></article>
+          <article></article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title"></div>
+        <div class="section-content"></div>
+      </section>
+
     </main>
 
-    <footer>
-      <h3>
-        Open Chrome DevTools --> Toggle device toolbar --> Resize the browser
-        window!
-      </h3>
-    </footer>
+    <!--
+    <footer></footer>
+    -->
   </body>
 </html>
+
+
+<!--
+Project using:
+
+flexbox, 
+media queries, and 
+CSS variables
+
+
+What to do:
+
+A portfolio is a sample a potential employee's previous work
+Name, photo.
+Links to About Me, Work, and Contact.
+Links scroll to page anchors.
+First work post is Largest!
+Project links go 'somewhere'.
+Responsive.
+
+ReadMe.md - Repository contains quality readme with description, screenshot, link to deployed application.
+
+--------------|-|---------------
+
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+
+-->
