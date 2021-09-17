@@ -12,14 +12,16 @@ control I expect when it comes to setting sizes and using margins/padding */
   --accent-color-2: #92cccd;
   --copy-color: #445876;
   --page-background: #ededf6;
-  --wireframe-outlines: dashed red;
+  --wireframe-outlines: none;
 }
 
 body {
   /* display: flex;
   flex-direction: column; */
   font-family: "Nanum Gothic", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.3;
+  background-color: var(--page-background);
 }
 
 header {
@@ -72,18 +74,18 @@ nav {
 
 nav ul {
   display: flex;
-  gap: 8px;
+  gap: 12px;
   justify-content: space-between;
   min-width: 300px;
 }
 
-nav ul li a {
+ul li a {
   /* background-color: unset; */
   color: var(--accent-color-2);
   font-weight: normal;
   text-decoration: none;
   border-bottom: 4px solid var(--accent-color-2);
-  padding: 6px;
+  padding: 6px 12px;
 }
 
 nav ul li a:hover {
@@ -100,7 +102,11 @@ section {
   display: flex;
   gap: 24px;
   justify-content: center;
-  margin: 24px;
+  margin: 32px;
+}
+
+section div.section-content {
+  width: 100%;
 }
 
 section h3 {
@@ -109,6 +115,8 @@ section h3 {
   color: var(--copy-color);
   padding-right: 16px;
   border-right: 4px solid;
+  width: 200px;
+  text-align: right;
 }
 
 .work-content {
@@ -116,34 +124,44 @@ section h3 {
   flex-flow: row wrap;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 70%;
-  outline: var(--wireframe-outlines);
+  flex-basis: 100%;
   gap: 16px;
 }
 
 .work-content-flex {
   display: flex;
-  flex-flow: row wrap;
-  outline: var(--wireframe-outlines);
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 8px;
+  /* flex-flow: row wrap; */
   width: 100%;
-  /* gap: 16px; */
 }
 
 article {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-end;
   height: 150px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 50%;
+  flex: 1 1 40%;
   background-position: center; /* Center the image */
   background-size: cover;
   background-repeat: no-repeat; /* Do not repeat the image */
+  border: 4px solid var(--accent-color-2);
 }
 
 article div {
+  font-size: medium;
+  padding: 8px;
+  margin-bottom: 24px;
   background-color: var(--accent-color-2);
+}
+
+article div h4 {
+  padding-bottom: 8px;
+}
+
+article div p {
+  font-size: small;
 }
 
 article h4 {
@@ -151,7 +169,6 @@ article h4 {
 }
 
 article:first-child {
-  border: 1px solid black;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 100%;
@@ -176,6 +193,24 @@ article:nth-child(5) {
 }
 
 footer {
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+footer ul li a {
+  color: var(--copy-color);
+  border-bottom: 4px solid var(--copy-color);
+}
+
+footer ul li a:hover {
+  color: var(--page-background);
+  background-color: var(--copy-color);
 }
 
 /* Tablets */
