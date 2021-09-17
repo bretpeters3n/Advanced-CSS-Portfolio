@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Responsive Web Design</title>
+    <title>Coding Portfolio - Bret Petersen</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- import RESET css file -->
@@ -20,10 +20,10 @@
       <h1>Bret Petersen</h1>
       <nav>
         <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="http://bretpetersen.com/bootstrap/_assets_me/_pdf/bretpetersen_resume.pdf">Resume</a></li>
         </ul>
       </nav>
     </header>
@@ -34,8 +34,8 @@
 
     <main>
 
-      <section>
-        <h3>About</h3>
+      <section id="about">
+        <h3>About Me</h3>
         <div class="section-content">
           <p>I'm focused on connectng everyday
             users with emerging technology. I
@@ -59,63 +59,65 @@
         </div>
       </section>
 
-      <section>
+      <section id="work">
         <h3>Work</h3>
         <div class="work-content">
           <div class="work-content-flex">
-            <article>
-              <div>
-                <h4>Project 1</h4>
-                <p>Client</p>
+            <a href="https://bretpeters3n.github.io/semantic-tagging/" class="article">
+              <div class="title">
+                <h4>Semantic Tagging</h4>
+                <p>U of M</p>
               </div>
-            </article>
-            <article>
-              <div>
-                <h4>Project </h4>
-                <p>Client</p>
+              <div class="overlay"></div>
+            </a>
+            <a href="http://bretpetersen.com/bootstrap/page-uxdesign-keepitcustom.html" class="article">
+              <div class="title">
+                <h4>Clouds</h4>
+                <p>Personal Project</p>
               </div>
-            </article>
-            <article>
-              <div>
-                <h4>Project 3</h4>
-                <p>Client</p>
+              <div class="overlay"></div>
+            </a>
+            <a href="http://bretpetersen.com/bootstrap/page-websites.html" class="article">
+              <div class="title">
+                <h4>Code for Good</h4>
+                <p>U of M</p>
               </div>
-            </article>
-            <article>
-              <div>
-                <h4>Project 4</h4>
-                <p>Client</p>
+              <div class="overlay"></div>
+            </a>
+            <a href="http://bretpetersen.com/bootstrap/page-animatedBanners.html" class="article">
+              <div class="title">
+                <h4>The Circuit Board</h4>
+                <p>Arduino &trade;</p>
               </div>
-            </article>
-            <article>
-              <div>
-                <h4>Project 5</h4>
-                <p>Client</p>
+              <div class="overlay"></div>
+            </a>
+            <a href="http://bretpetersen.com/bootstrap/page-videos.html" class="article">
+              <div class="title">
+                <h4>Yosimite</h4>
+                <p>California State</p>
               </div>
-            </article>
+              <div class="overlay"></div>
+            </a>
             
           </div>
         </div>
       </section>
 
-      <section>
+      <section id="contact">
         <h3>Contact Me</h3>
         <footer>
           <ul>
-            <li><a href="#">555.555.5555</a></li>
-            <li><a href="#">notmyemail@nottoday.com</a></li>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">LinkedIn</a></li>
+            <li><a href="tel:5551234567">555.555.5555</a></li>
+            <li><a href="mailto:notmyemail@nottoday.com">notmyemail@nottoday.com</a></li>
+            <li><a href="https://github.com/bretpeters3n">GitHub</a></li>
+            <li><a href="https://twitter.com/bpete">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/bret-petersen-8002023/">LinkedIn</a></li>
           </ul>
         </footer>
       </section>
 
     </main>
 
-    <!--
-    <footer></footer>
-    -->
   </body>
 </html>
 
