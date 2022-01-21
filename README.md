@@ -139,7 +139,7 @@ N/A
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/bretpeters3n/cat-memory.git
+   git clone https://github.com/bretpeters3n/Advanced-CSS-Portfolio.git
    ```
 2. Open the `index.html` file in your favorite web browser.
 <!--2. Install NPM packages
