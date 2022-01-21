@@ -35,7 +35,7 @@
 
 <h2 align="center">Advanced CSS Portfolio</h2>
   <p align="center">
-    This group project involved creating an application using an API.
+    This project is a mock personal portfolio site.
     <br />
     <br />
     <a href="https://bretpeters3n.github.io/Advanced-CSS-Portfolio/">View Demo</a>
