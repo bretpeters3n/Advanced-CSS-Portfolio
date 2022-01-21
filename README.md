@@ -16,8 +16,8 @@
 <img src="https://img.shields.io/badge/CSS-yellow"/>
 <!--<img src="https://img.shields.io/badge/Bulma-blue"/>-->
 <img src="https://img.shields.io/badge/Javascript-indigo"/>
-<img src="https://img.shields.io/badge/jQuery-violet"/>
-<!--<img src="https://img.shields.io/badge/-Node.js-violet"/>
+<!--<img src="https://img.shields.io/badge/jQuery-violet"/>
+<img src="https://img.shields.io/badge/-Node.js-violet"/>
 <img src="https://img.shields.io/badge/-JSON-red"/>
 <img src="https://img.shields.io/badge/-SQL-orange  "/>-->
 
@@ -79,7 +79,15 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <!-- OVERVIEW -->
 ## Overview
-This project is a mock personal portfolio site. This project involves; media queries, flexbox, UI box styling, font-family & line-height, pseudo-classes & pseudo-elements, has CSS selectors to reference HTML elements in different ways, includes CSS variables to keep their code clean, and has advanced CSS styling for an enhanced UI.
+This project is a mock personal portfolio site. This project involves:
+* media queries
+* flexbox
+* UI box styling
+* font-family & line-height
+* pseudo-classes & pseudo-elements
+* CSS selectors to reference HTML elements in different ways
+* CSS variables to keep their code clean
+* advanced CSS styling for an enhanced UI
 
 
 <!-- BUILT WITH -->
