@@ -118,7 +118,7 @@ This project is a mock personal portfolio site. This project involves:
 
 <!-- DEMO -->
 ## Demo
-[View Demo](https://bretpeters3n.github.io/Advanced-CSS-Portfolio/)
+[View Demo](https://bretpeters3n.github.io/advanced-CSS-portfolio/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
